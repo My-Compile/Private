@@ -1,12 +1,12 @@
 name: r2s-immortalwrt-18.06
 
 on:
-  repository_dispatch:
-  workflow_dispatch:
-  schedule:
-    - cron: '10 21 */3 * *'
-  watch:
-    types: started
+  #repository_dispatch:
+  #workflow_dispatch:
+  #schedule:
+    #- cron: '10 21 */3 * *'
+  #watch:
+    #types: started
 env:
   REPO_URL: https://github.com/project-openwrt/openwrt
   REPO_BRANCH: openwrt-18.06-k5.4
